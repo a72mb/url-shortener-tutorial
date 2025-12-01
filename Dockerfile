@@ -25,5 +25,5 @@ ENV PATH="/app/.venv/bin:$PATH"
 
 ENTRYPOINT []
 
-# Run with uvicorn
-CMD ["fastapi", "dev", "--host", "0.0.0.0",  "--port", "8000", "src/url-shortener"]
+# Run with fastapi
+CMD ["fastapi", "dev", "--host", "0.0.0.0",  "--port", "8000", "shortener_app/main.py"]

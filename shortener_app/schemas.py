@@ -14,7 +14,7 @@ class URL(URLBase):
 
     class Config:
 
-        orm_mode = True
+        from_attributes = True
 
 
 class URLInfo(URL):
